@@ -19,7 +19,7 @@ This is a part of the robotic dog project [Turbo-Pup](https://github.com/MackaJu
 I use PlatformIO with the Arduino framework to program the ESP32-S3 MCU because I am more familiar with the Arduino IDE, but after all, I think it also does a great job from all perspectives for me.
 
 ## License
-This project is licensed under the [GPL 3.0 License](GPL 3.0 License), allowing for unrestricted use, modification, and distribution. See the LICENSE file for details.
+This project is licensed under the GPL 3.0 License, allowing for unrestricted use, modification, and distribution. See the [LICENSE](LICENSE) file for details.
 
 ## Disclaimer
 Use the Turbo Drive board at your own risk. The developers are not liable for any damage or injury caused by its use.
