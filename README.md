@@ -1,7 +1,8 @@
-# Turbo-Drive
+![logo](https://github.com/MackaJunest/Turbo-Drive/assets/95353708/3a06846e-b842-41a0-ab2a-13b1df655202)
 An ESP32-based multifunctional servo & BLDC motor controller
 
 ## Overview
+![Turbo_Drive](https://github.com/MackaJunest/Turbo-Drive/assets/95353708/e448c803-73c9-4991-ad39-4416c5ea1a47)
 This is a part of the robotic dog project [Turbo-Pup](https://github.com/MackaJunest/Turbo-Pup). This board serves as a lower computer for motion-related control (direct motor control, kinematics, IMU data collection, etc.). My principle in designing this controller is to have an easy-to-use, reliable, multifunctional motor driving board that is suitable for multitask usages.
 
 ## Features
@@ -17,6 +18,32 @@ This is a part of the robotic dog project [Turbo-Pup](https://github.com/MackaJu
 ### Software
 - **Programming**: 
 I use PlatformIO with the Arduino framework to program the ESP32-S3 MCU because I am more familiar with the Arduino IDE, but after all, I think it also does a great job from all perspectives for me.
+
+### How to use
+- **Platformio Configuration:**
+```ini
+; PlatformIO Project Configuration File(.ini)
+;
+; Build options: build flags, source filter
+; Upload options: custom upload port, speed and extra flags
+; Library options: dependencies, extra library storages
+; Advanced options: extra scripting
+;
+; Please visit documentation for the other options and examples
+; https://docs.platformio.org/page/projectconf.html
+
+[env:esp32-s3-devkitc-1]
+platform = espressif32
+framework = arduino
+board = esp32-s3-devkitc-1
+board_build.mcu = esp32s3
+board_build.f_cpu = 240000000L
+build_flags = -DBOARD_HAS_PSRAM
+board_build.arduino.memory_type = qio_opi
+board_build.partitions = default_16MB.csv
+board_upload.flash_size = 16MB
+lib_deps = 
+```
 
 ## License
 This project is licensed under the GPL 3.0 License, allowing for unrestricted use, modification, and distribution. See the [LICENSE](LICENSE) file for details.
