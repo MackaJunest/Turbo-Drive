@@ -1,4 +1,5 @@
 ![logo](https://github.com/MackaJunest/Turbo-Drive/assets/95353708/3a06846e-b842-41a0-ab2a-13b1df655202)
+# Turbo-Drive
 An ESP32-based multifunctional servo & BLDC motor controller
 
 ## Overview
