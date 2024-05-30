@@ -7,7 +7,7 @@ An ESP32-based multifunctional servo & BLDC motor controller
 This is a part of the robotic dog project [Turbo-Pup](https://github.com/MackaJunest/Turbo-Pup). This board serves as a lower computer for motion-related control (direct motor control, kinematics, IMU data collection, etc.). My principle in designing this controller is to have an easy-to-use, reliable, multifunctional motor driving board that is suitable for multitask usages.
 ![Turbo_Drive](https://github.com/MackaJunest/Turbo-Drive/assets/95353708/e448c803-73c9-4991-ad39-4416c5ea1a47)
 ![2](https://github.com/MackaJunest/Turbo-Drive/assets/95353708/20dcd9bc-c17d-4b01-a3cb-455c4b6b0098)
-![3](https://github.com/MackaJunest/Turbo-Drive/assets/95353708/65ec1aea-aed2-4f3d-a497-13771bbfbb1a)
+![3](https://github.com/MackaJunest/Turbo-Drive/assets/95353708/314e8b04-1a01-4444-bbd9-54dc6ec299ba)
 
 ## Features
 
