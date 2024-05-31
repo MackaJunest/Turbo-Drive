@@ -25,7 +25,7 @@ I use PlatformIO with the Arduino framework to program the ESP32-S3 MCU because 
 
 ### How to build&use
 
-- **Build the PCB:** Use the Gerber file to build the PCB and solder all the components shown in the BOM onto the PCB, the ESP32-S3 is a pre-burned module so there is no need to burn the firmware onto the module.
+- **Build the PCB:** Use the [Gerber file](https://github.com/MackaJunest/Turbo-Drive/releases/tag/V1.0) to build the PCB (You can just manufacture them from JLCPCB or PCBway for a really cheap price with an awesome quality) and solder all the components shown in the [BOM](https://github.com/MackaJunest/Turbo-Drive/releases/tag/V1.0) onto the PCB, the ESP32-S3 is a pre-burned module so there is no need to burn the firmware onto the module.
 - **How to upload:** Just press and hold the BOOT button and power on the ESP32-S3, it will then enter the upload mode. After the upload, just press the RST button to start the program. 
 - **Platformio Configuration:**
 ```ini
