@@ -23,7 +23,10 @@ This is a part of the robotic dog project [Turbo-Pup](https://github.com/MackaJu
 - **Programming**: 
 I use PlatformIO with the Arduino framework to program the ESP32-S3 MCU because I am more familiar with the Arduino IDE, but after all, I think it also does a great job from all perspectives for me.
 
-### How to use
+### How to build&use
+
+- **Build the PCB:** Use the Gerber file to build the PCB and solder all the components shown in the BOM onto the PCB, the ESP32-S3 is a pre-burned module so there is no need to burn the firmware onto the module.
+- **How to upload:** Just press and hold the BOOT button and power on the ESP32-S3, it will then enter the upload mode. After the upload, just press the RST button to start the program. 
 - **Platformio Configuration:**
 ```ini
 ; PlatformIO Project Configuration File(.ini)
